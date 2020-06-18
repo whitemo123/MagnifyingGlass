@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+.wrapper {
+    position: relative;
+    width:500px;
+    border:1px solid #000;
+}
+.content {
+    position: relative;
+    width:500px;
+    height: 500px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.imgShow {
+    position: relative;
+    width:100%;
+    height: 100%;
+}
+
+.bottomBox {
+    width:500px;
+    height:100px;
+}
+.bottomBox li {
+    padding:5px;
+    float:left;
+    width:100px;
+    height:100px;
+    box-sizing: border-box;
+    border:1px solid #ccc;
+}
+.bottomBox li.active {
+    border:1px solid red;
+}
+.bottomBox li img {
+    width:100%;
+    height:100%;
+    cursor: pointer;
+}
+.bigImg {
+    position: absolute;
+    left:105%;
+    top:0;
+    width:500px;
+    height:500px;
+    border:1px solid #000;
+    background-repeat: no-repeat;
+    display:none;
+}
+
+.move {
+    position: absolute;
+    background-color: rgba(255,255,255, .9);
+    background-size:100% 100%;
+    cursor: move;
+}
+
+.imgShow img {
+    width:100%;
+    height:100%;
+}
